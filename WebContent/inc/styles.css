@@ -1,0 +1,62 @@
+@CHARSET "ISO-8859-1";
+
+
+html{
+	background-color:#eee;
+	background-image:-moz-radial-gradient(circle closest-corner, #eee 0%, #e0e0e0 100%);
+	background-image:-o-radial-gradient(circle closest-corner, #eee 0%, #e0e0e0 100%);
+	background-image:-webkit-radial-gradient(circle closest-corner, #eee 0%, #e0e0e0 100%);
+	background-image:radial-gradient(circle closest-corner, #eee 0%, #e0e0e0 100%);
+}
+
+
+/* Gray button style */
+
+.button1{
+	padding: 9px 18px;
+	display: inline-block;
+	background-color: #CCC;
+	border-radius: 4px;
+	text-decoration: none;
+	box-shadow: 0 -15px rgba(255, 255, 255, 0.2) inset, 0 1px 0 #bbb, 0 2px 1px #DDD;
+	color: #555 !important;
+	font-size: 15px;
+	border: 1px solid #BBB;
+}
+
+.button1:hover{
+	background-color:#d3d3d3;
+}
+
+.button1:active{
+	background-color:#c0c0c0;
+}
+
+
+
+/* Blue button style */
+
+.button2{
+	padding: 9px 18px;
+	display: inline-block;
+	background-color: #2293e1;
+	border-radius: 4px;
+	text-decoration: none;
+	box-shadow: 0 -15px rgba(255, 255, 255, 0.1) inset, 0 1px 0 #2e84c0, 0 2px 1px #2e84c0;
+	color: #fff !important;
+	font-weight:bold;
+	font-size: 15px;
+	border: 1px solid #2e84c0;
+}
+
+.button2:hover{
+	background-color:#329be4;
+}
+
+.button2:active{
+	background-color:#2e84c0;
+}
+
+#b1{
+	margin:10px 10px 0 60px;
+}

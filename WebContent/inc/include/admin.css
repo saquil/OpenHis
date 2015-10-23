@@ -1,0 +1,87 @@
+#body{
+margin-left : 25%;
+margin-top : 15%;
+width: 50%;
+
+}
+#profileBody{
+margin-left : 25%;
+width: 100%;
+display: none;
+position: absolute;
+margin-top: 3%;;
+}
+
+#body h1{
+    font-family: 'Tangerine', serif;
+    font-weight: bold;
+    font-size: 350%;
+}
+
+
+#c-fluid{
+background-color: rgba(255,255,255,0.5);	
+}
+
+#myTextField{
+color: black;	
+}
+
+#compte{
+    color:gold;
+    font-family: serif;
+    font-size: 70%;
+}
+
+#drpdwn:hover ul{
+   display: block;
+}
+
+#dropdown{
+	color: black;
+    text-decoration: underline;
+}
+
+#header{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+#deconnexion{
+	font-weight: bold;
+}
+
+
+#autosugestTable, tbody, table{
+	background-color: rgba(255,255,255,1);
+	border-radius: 2px;
+	width: 450px;
+	border-bottom-color: rgba(255,255,255,1);
+	border-left-color: rgba(255,255,255,1);
+	border-right-color: rgba(255,255,255,1);
+	border-top-color:rgba(255,255,255,1);
+}
+#autosugestTable tr:hover{
+	background-color: rgba(62,203,235,0.2);
+	cursor: pointer;
+}
+
+#autosugestTable tr {
+	margin-bottom: 0px;
+	width:450px;
+	border:none;
+}
+
+#autosugestTable td{
+	padding: 5px;
+	border:none;
+}
+
+#profileForm{
+	background-color: rgba(1,79,102,0.7);
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 5px;
+}

@@ -1,0 +1,260 @@
+	body {
+    	font-family: "OpenSans",Arial,sans-serif;
+    	color: #363463;
+		font-size: 16px;
+    }
+    #body-wrapper {
+	    margin-left: 5%;
+		margin-right: 5%;
+		margin-top: 7%;
+	    padding: 10px;
+	    background-color: #334429;
+	    border-radius: 5px;
+	}
+	.patient-header {
+	    position: relative;
+	    overflow: hidden;
+	    background: #F9F9F9 none repeat scroll 0% 0%;
+	    background: #FDFEFA url("../image/bg_infobox.png") repeat-x scroll left top;
+	    border: 1px solid #F1F1F1;
+	    z-index: 0;
+	    border-bottom: 2px solid #EEE;
+	    margin: -9px -9px 10px;
+	    padding: 5px 10px;
+	    min-height: 60px;
+	}
+	.demographics {
+	    display: inline-block;
+	    position: relative;
+	    float: left;
+	    vertical-align: top;
+	    margin-left: 20px;
+	}
+	.gender-age {
+	    font-size: 0.6em;
+	    vertical-align: top;
+	    margin-top: 10px;
+	}
+	.identifiers {
+	    max-width: 520px;
+	    display: inline-block;
+	    float: right;
+	    text-align: right;
+	    margin-left: 20px;
+	    margin-right: 20px;
+	}
+	.patient-header .identifiers em {
+	    max-width: 170px;
+	    min-width: 120px;
+	    display: inline-block;
+	    color: #888;
+	    font-style: normal;
+	    font-size: 0.9em;
+	    border-bottom: 1px solid #DDD;
+	}
+	.patient-header .identifiers span {
+	    background: #666 none repeat scroll 0% 0%;
+	    color: #FFF;
+	    letter-spacing: 1px;
+	    margin: 2px;
+	    display: inline-block;
+	    padding: 2px 8px;
+	    font-size: 0.8em;
+	    border-radius: 50px;
+	}
+	.active-visit-started-at-message {
+	    background: #ABDA0F none repeat scroll 0% 0%;
+	    text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.25);
+	}
+	.active-visit-message {
+
+	    background: #666 none repeat scroll 0% 0%;
+	    border-color: #666;
+	}
+	.contact-info-inline {
+	    font-size: 0.6em;
+	}
+	.patient-header .demographics .colored-message, .patient-header .demographics .bordered-colored-message, .patient-header .demographics .active-visit-started-at-message, .patient-header .demographics .active-visit-message {
+	    display: inline-block;
+	    vertical-align: text-bottom;
+	    color: #FFF;
+	    padding: 2px 4px;
+	    border-radius: 1px;
+	    margin-top: 4px;
+	    font-size: 0.8em;
+	}
+	.patient-header .demographics h1 span em {
+	    font-size: 0.4em;
+	    color: #888;
+	    border-top: 1px solid #DDD;
+	    display: block;
+	}
+	.patient-header .demographics h1 span {
+    	display: inline-block;
+	}
+	.patient-header .demographics h1 {
+	    margin: 0px;
+	    padding-left: 0px;
+	    font-size: 1.5em;
+	    color: #00463F;
+		font-weight: normal;
+		margin-bottom: 7px;
+	}
+	.patient-header .demographics .contact-info-inline em {
+	    font-size: 0.7em;
+	}
+	.patient-header .demographics .gender-age small {
+	    margin-left: 10px;
+	    font-size: 80%;
+	}
+	.patient-header .contact-info-label {
+	    font-size: 0.8em;
+	    margin-left: 10px;
+	}
+	a {
+	    color: #739601;
+	    text-decoration: none;
+	}
+	a:hover {
+	    text-decoration: underline;
+	}
+	#contactInfoContent{
+		display:none;
+		margin-left: 20px;
+		margin-top: 3px;
+	}
+
+	.clear {
+	    clear: both;
+	}
+
+	/***************************************/
+	.dashboard {
+	    margin-top: 1%;
+	    overflow: hidden;
+	    background: #F9F9F9 none repeat scroll 0% 0%;
+	    background: #FDFEFA url("../image/bg_infobox.png") repeat-x scroll left top;
+	    border: 1px solid #F1F1F1;
+	    padding: 0px 10px 10px 10px;
+	}
+	.info-container {
+	    display: inline;
+	    float: left;
+	    width: 35.4167%;
+	    margin: 0px 1.04167%;
+	}
+	.info-section {
+	    display: inline;
+	    float: left;
+	    width: 97.9167%;
+	    margin: 10px 5px 5px;
+	}
+	.info-header {
+	    border-bottom: 6px solid #73965C;
+	}
+	.dashboard .info-header h3 {
+	    display: inline-block;
+	    font-family: "OpenSansBold";
+	    font-size: 1em;
+	    margin: 0px;
+	    color: #00463F;
+		clear: both;
+		font-weight: normal;
+		color: #00463F;
+	}
+	.info-body{
+		color: #A77474;
+	}
+	.action-container {
+	    display: inline;
+	    float: left;
+	    width: 22.9167%;
+	    margin: 0px 1.04167%;
+	}
+	.action-section {
+	    margin-top: 30px;
+	    background: #FFF none repeat scroll 0% 0%;
+	    border: 1px solid #DDD;
+	}
+	.dashboard .action-section ul {
+	    background: #73965C none repeat scroll 0% 0%;
+	    color: #FFF;
+	    padding: 5px;
+	    list-style: outside none none;
+	    margin: 0px;
+	}
+	.dashboard .action-section h3 {
+	    margin: 5px 0px;
+	    color: #FFF;
+	    border-bottom: 1px solid #FFF;
+	    font-size: 1em;
+	    font-weight: normal;
+	    clear: both;
+	}
+	.dashboard .action-section li {
+	    font-size: 0.9em;
+	}
+	.dashboard .action-section a {
+	    color: #FFF;
+	}
+	.visit-link {
+    	text-decoration: underline;
+	}
+	.dashboard .info-body .tag {
+	    float: right;
+	    min-width: 66px;
+	    text-align: center;
+	}
+	.tag {
+	    background: #51A351 none repeat scroll 0% 0%;
+	    color: #FFF;
+	    display: inline;
+	    padding: 2px 5px;
+	    border-radius: 1px;
+	    font-size: 0.8em;
+	}
+	ul {
+	    list-style: outside none none;
+	}
+	.dashboard .info-body li {
+	    line-height: 1.1em;
+	    border-bottom: 1px solid #EEE;
+	    padding:5px;
+	}
+	/*********************Respo***************************/
+	@media only screen and (max-width:770px){
+		.info-container {
+			float: unset;
+		}
+	}
+	
+	.searchInput {
+		    border: 1px solid #7EA75E;
+		    width: 35%;
+		    height: 1.5em;
+		    margin-left: 4%;
+		    line-height: normal;
+		    font-size: 100%;
+		    padding: 1px 0px 1px 5px;
+		}
+				select{
+			min-width: 200px;
+			color: #363463;
+			display: block;
+			padding: 5px 10px;
+			margin: 5px 0px 0px;
+			background-color: #FFF;
+			border: 1px solid #DDD;
+		}
+		table th, table td {
+		    padding: 5px 10px;
+		    border: 1px solid #DDD;
+		}
+		.sectionHeader {
+		    background-color: #51A351;
+		    color: #FFF;
+		    display: block;
+		    padding: 2px;
+		    font-size: 26px;
+		    font-weight: bold;
+		}

@@ -1,0 +1,121 @@
+@CHARSET "ISO-8859-1";
+
+
+#reponse{
+     			box-shadow: 1px 1px 2px black;
+     			padding-left : 5px;
+     			font-family: "verdana";
+				font-size: 16px;
+				font-weight: 400;
+  			}
+  			.con_record:hover{
+  				background-color:rgba(0,0,0,0.03)
+  			}
+			.record{
+				text-decoration: none;
+				color:black;
+			}
+			.record:hover{
+				text-decoration: none;
+				color:black;
+				opacity:0.3;
+			}
+			.inputText{
+				width: 250px;
+				height: 30px;
+				/*background: transparent;*/
+				border: 1px solid /*rgba(255,255,255,0.6)*/black;
+				border-radius: 2px;
+				/*color: #fff;*/color:black;
+				font-family: 'Exo', "verdana";
+				font-size: 16px;
+				font-weight: 400;
+				padding: 4px;
+			}
+			.inputText:focus{
+				outline: none;
+			}
+			table nav,table header{
+				display: none;
+			}
+		body {
+	    	font-family: "OpenSans",Arial,sans-serif;
+	    	color: #363463;
+			font-size: 16px;
+	    }
+	    #body-wrapper {
+		    margin-top: 10px;
+		    padding: 10px;
+		    background: #FDFEFA url(../image/bg_infobox.gif) repeat-x top left;
+		    border-radius: 5px;
+		}
+		h3 {
+		    font-size: 1.2em;
+		}
+		h1, h2, h3, h4, h5, h6 {
+		    color: #00463F !important;
+		    clear: both;
+		    margin: 10px 0px;
+		    font-weight: normal;
+		}
+		.dataTables_wrapper {
+		    position: relative;
+		    min-height: 342px;
+		    clear: both;
+		}
+		.dataTables_filter {
+		    width: 40%;
+		    margin-bottom: 10px;
+		}
+
+		.odd {
+		    background: #FFF none repeat scroll 0% 0%;
+		    cursor: pointer;
+		}
+		.even {
+		    background: #E8EDD8 url("../image/bg_infobox.gif");
+		    cursor: pointer;
+		}
+		.odd:hover,.even:hover{
+			opacity:0.5;
+		}
+		table tr {
+		    border: 1px solid #EEE;
+		    padding:2px;
+		 
+		}
+		}
+		table th, table td {
+		    padding: 5px 10px !important;
+		    border: 1px solid #DDD;
+		    
+		}
+		table thead th {
+		    text-align: left;
+		    word-break: normal;
+		    font-weight: normal;
+		    font-family: "OpenSansBold";
+		}
+		.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+		    border: 1px solid #BEEAC5;/*#D3D3D3*/
+		    background: #CFFFC6;/*#E6E6E6*/
+		    font-weight: normal;
+		}
+		.headTable {
+		    font-size: 1.3em;
+		    padding: 2px 0px 1px 0px;
+		    color: #00463F;
+		}
+		.searchInput {
+		    border: 1px solid #7EA75E;
+		    width: 35%;
+		    height: 1.5em;
+		    margin-left: 4%;
+		    line-height: normal;
+		    font-size: 100%;
+		    padding: 1px 0px 1px 5px;
+		}
+		.searchLabel{
+			margin-left: 4%;
+			color: #00463F;
+		}

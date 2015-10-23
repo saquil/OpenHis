@@ -1,0 +1,70 @@
+header .logo {
+  float: left;
+  margin-right: 5px;
+
+}
+header .logo img {
+  width: 100px;
+  height: 55px;
+  margin-bottom: 5px;
+}
+
+#divzer{
+	margin-top: 5px;
+	float: right;
+	margin-right: 15px;
+	display: inline-block;
+}
+
+header {
+    height:60px;
+    background:#F0F0F0;
+    border:1px solid #CCC;
+    width:960px;
+    margin:0px auto;
+    border-radius: 10px;
+    background-color:#00463f; /*#abda0f*/
+}
+#lg{
+	margin-top: 5px;
+	height: 23px;
+	width: 23px;
+}
+#divzer a, #divzer a:hover{
+	text-decoration: none;
+	color: white;
+	font-family: verdana;
+	font-size: 16px;
+}
+/**************************************************/
+
+.head2{
+	margin: 5% 0px 5% 5%;
+	padding-left: 0px;
+	font-size: 2.5em;
+	color: #00463F;
+	font-weight: normal;
+}
+.choix{
+	margin-left: 20%;
+	margin-right: 15%;
+}
+
+input[type="radio"]{
+	margin: 5px;
+}
+#form td, th{
+	padding: 10px;
+} 
+#rempchapms{
+	margin-left: 5%;
+	font-size: 1.2em;
+	color: #00463F;
+	font-weight: normal;
+}
+.head3{
+	font-family: verdana;
+	margin-left: 2%;
+	color: #00463F;
+	font-weight: normal;
+}
